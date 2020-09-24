@@ -1,10 +1,11 @@
 import React from "react";
 import { Home } from "./home";
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
+import { renderInTestMode } from "../lib/tests";
 
 describe("Home", () => {
   it("should display hello world", () => {
-    render(<Home />);
+    renderInTestMode(<Home />);
     expect(screen.getByText("hello world"));
   });
 });

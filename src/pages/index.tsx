@@ -1,5 +1,1 @@
-import React from "react";
-
-const Home = () => <div>Hello</div>;
-
-export default Home;
+export { Home as default } from "../modules/home";
