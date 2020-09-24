@@ -1,1 +1,1 @@
-export { Home as default } from "../modules/home";
+export { MovieSearch as default } from "../modules/MoviesSearch";
